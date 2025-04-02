@@ -1,35 +1,86 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img
+          src="/bosal_detail_page_01.png"
+          className="image"
+          alt="상세페이지1"
+        />
+        {/* 버튼박스 */}
+        <div className="button_box">
+          <a href="http://www.kbosal.com">
+            <img className="button_lg" src="/btn_home.png"></img>
+          </a>
+          <a href="https://m.smartstore.naver.com/k567">
+            <img className="button_lg" src="/btn_store.png"></img>
+          </a>
+          <div className="button_list">
+            <a href="http://pf.kakao.com/_dxbxfxfn/friend" target="_blank">
+              <img className="button_md" src="/btn_kakao.png"></img>
+            </a>
+            <a href="https://www.instagram.com/bosalstagram">
+              <img className="button_md" src="/btn_insta.png"></img>
+            </a>
+          </div>
+        </div>
+        <img
+          src="/bosal_detail_page_02.png"
+          className="image"
+          alt="상세페이지2"
+        />
+        <img
+          src="/bosal_detail_page_03.png"
+          className="image"
+          alt="상세페이지3"
+        />
+        <img
+          src="/bosal_detail_page_04.png"
+          className="image"
+          alt="상세페이지4"
+        />
+        <img
+          src="/bosal_detail_page_05.png"
+          className="image"
+          alt="상세페이지5"
+        />
+        <img
+          src="/bosal_detail_page_06.png"
+          className="image"
+          alt="상세페이지6"
+        />
+        <img
+          src="/bosal_detail_page_07.png"
+          className="image"
+          alt="상세페이지7"
+        />
+        {/* 버튼박스 */}
+        <div className="button_box">
+          <a href="http://www.kbosal.com">
+            <img className="button_lg" src="/btn_home.png"></img>
+          </a>
+          <a href="https://m.smartstore.naver.com/k567">
+            <img className="button_lg" src="/btn_store.png"></img>
+          </a>
+          <div className="button_list">
+            <a href="http://pf.kakao.com/_dxbxfxfn/friend" target="_blank">
+              <img className="button_md" src="/btn_kakao.png"></img>
+            </a>
+            <a href="https://www.instagram.com/bosalstagram">
+              <img className="button_md" src="/btn_insta.png"></img>
+            </a>
+          </div>
+        </div>
+        <img
+          src="/bosal_detail_page_08.png"
+          className="image"
+          alt="상세페이지8"
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
